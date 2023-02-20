@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #1e1e1e; 
+    --cor1: #1C1761;
+    --cor2: #090361;
+    --cor3: #1106AE;
+    --cor4: #1507E0;
+    --cor5: #4337E6;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--cor0);
+}
+
+#section-busca {
+    display: inline-block;
+    width: 310px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+#txt-busca {
+    float: left;
+    width: 280px;
+    height: 30px;
+    background-color: transarent;
+    font-size: 20px;
+    font-style: italic;
+    border: none;
+}
+
+#icone-busca {
+    height: 26px;
+}
+
+#section-logo {
+    display: inline-block;
+}
+
+#logo {
+    height: 200px;
+}
